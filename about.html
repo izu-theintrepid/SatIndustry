@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About SatIndustry</title>
-    <link rel="stylesheet" href="../../css/index.css">
+    <link rel="stylesheet" href="css/index.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,6 +13,7 @@
     <nav class="navbar">
         <div class="container">
             <a href="home.html" class="logo">
+                <img src="images/logo-sat.svg" alt="SatIndustry Logo" width="100" height="50"> 
                 <span>SatIndustry</span>
             </a>
             <ul class="nav-menu">
@@ -23,17 +24,20 @@
             </ul>
         </div>
     </nav>
+    <section class="hero" style="padding-top: 8rem; background-color: var(--dark-bg); min-height: 30vh; display: flex; align-items: center; text-align: center; color: var(--light-text);">
+        <div class="container" style="max-width: 900px;">
+            <h1 class="hero-title" style="font-size: 3rem; margin-bottom: 1rem; line-height: 1.2; color: var(--secondary-color);">Our Team</h1>
+            <p class="hero-subtitle" style="font-size: 1.2rem; opacity: 0.9; margin-bottom: 2rem;">Meet the team behind the development of the project</p>
+        </div>
+    </section>
 
 <section class="about-section">
     <div class="container">
-        <h2 class="section-title">Our Dedicated Team</h2>
-        <p class="section-subtitle">Driving innovation in environmental monitoring</p>
-        
         <div class="team-grid">
             <!-- Tarush Agarwal -->
             <div class="team-card">
                 <div class="card-image">
-                    <img src="https://placehold.co/400x400" alt="Tarush Agarwal">
+                    <img src="images/Tar.jpg" alt="Tarush Agarwal">
                 </div>
                 <h3 class="member-name">Tarush Agarwal</h3>
                 <p class="member-role">Lead AI Engineer</p>
@@ -48,7 +52,7 @@
             <!-- Ishanvi Mishra -->
             <div class="team-card">
                 <div class="card-image">
-                    <img src="https://placehold.co/400x400" alt="Ishanvi Mishra">
+                    <img src="images/Ish.jpg" alt="Ishanvi Mishra">
                 </div>
                 <h3 class="member-name">Ishanvi Mishra</h3>
                 <p class="member-role">Environmental Data Scientist</p>
@@ -63,7 +67,7 @@
             <!-- Ansh Chaturvedi -->
             <div class="team-card">
                 <div class="card-image">
-                    <img src="https://placehold.co/400x400" alt="Ansh Chaturvedi">
+                    <img src="images/Ans.jpg" alt="Ansh Chaturvedi">
                 </div>
                 <h3 class="member-name">Ansh Chaturvedi</h3>
                 <p class="member-role">Full-Stack Developer</p>
